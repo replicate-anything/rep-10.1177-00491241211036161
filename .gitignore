@@ -1,0 +1,6 @@
+.Rhistory
+.Rproj.user
+.RData
+.Ruserdata
+*.Rproj
+Rplots.pdf
