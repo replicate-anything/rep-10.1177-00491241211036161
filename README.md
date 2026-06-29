@@ -1,4 +1,4 @@
-# Humphreys, Dawid & Musio (2022) — Bounding Causes of Effects With Mediators
+# Dawid, Humphreys, and Musio (2022) — Bounding Causes of Effects With Mediators
 
 Folder-backed replication materials for [10.1177/00491241211036161](https://doi.org/10.1177/00491241211036161).
 
@@ -44,12 +44,3 @@ replicateEverything::run_replication(
 )
 ```
 
-## Publish to GitHub
-
-Create an empty repository `replicate-anything/rep-10.1177-00491241211036161`, then:
-
-```bash
-git remote add origin https://github.com/replicate-anything/rep-10.1177-00491241211036161.git
-git add -A && git commit -m "Initial folder-backed replication materials"
-git push -u origin main
-```
