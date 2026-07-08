@@ -99,7 +99,7 @@ format_fig_1 <- function(object) {
   if (!is.data.frame(object)) {
     stop(
       "Expected a bounds data frame from make_fig_1(). ",
-      "Rebuild with: Rscript scripts/build_artifacts.R papers/10.1177_00491241211036161",
+      "Rebuild with: Rscript scripts/build_artifacts.R studies/10.1177_00491241211036161",
       call. = FALSE
     )
   }
