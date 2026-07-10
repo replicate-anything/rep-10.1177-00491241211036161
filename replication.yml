@@ -7,6 +7,16 @@ paper:
   dependencies:
     - ggplot2
 
+maintainer:
+  name: Macartan Humphreys
+  email: macartan.humphreys@wzb.eu
+
+collections:
+  - IPI
+
+languages:
+  - r
+
 replications:
 
   - id: fig_1
