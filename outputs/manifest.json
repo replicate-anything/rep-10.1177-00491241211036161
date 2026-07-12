@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-08T07:23:06Z",
+  "folder": "10.1177_00491241211036161",
+  "doi": "10.1177/00491241211036161",
+  "prep": [],
+  "replications": {
+    "fig_1": {
+      "status": "ok",
+      "artifact": "artifacts/fig_1.png",
+      "format": "ggplot"
+    }
+  },
+  "study_repo": "replicate-anything/rep-10.1177-00491241211036161",
+  "study_folder": "rep-10.1177-00491241211036161"
+}

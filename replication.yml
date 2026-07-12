@@ -3,7 +3,7 @@ paper:
   title: Bounding Causes of Effects With Mediators
   journal: Sociological Methods & Research
   year: 2022
-  authors: Macartan Humphreys, Philip Dawid, Monica Musio
+  authors: Philip Dawid, Macartan Humphreys, Monica Musio
   dependencies:
     - ggplot2
 
@@ -25,6 +25,6 @@ replications:
     description: Bounds on probability of causation across rho and tau
     code: code/fig_1.R
     format: format_fig_1
-    artifact: artifacts/fig_1.png
+    artifact: outputs/fig_1.png
     dependencies:
       - ggplot2
