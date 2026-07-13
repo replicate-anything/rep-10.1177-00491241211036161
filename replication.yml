@@ -5,26 +5,31 @@ paper:
   year: 2022
   authors: Philip Dawid, Macartan Humphreys, Monica Musio
   dependencies:
-    - ggplot2
-
+  - ggplot2
 maintainer:
   name: Macartan Humphreys
   email: macartan.humphreys@wzb.eu
-
 collections:
-  - IPI
-
+- IPI
 languages:
-  - r
-
-replications:
-
-  - id: fig_1
-    type: figure
-    label: Figure 1
-    description: Bounds on probability of causation across rho and tau
-    code: code/fig_1.R
-    format: format_fig_1
-    artifact: outputs/fig_1.png
-    dependencies:
-      - ggplot2
+- r
+steps:
+- type: figure
+  label: Figure 1
+  description: Bounds on probability of causation across rho and tau
+  code: code/fig_1.R
+  format: format_fig_1
+  artifact: outputs/fig_1.png
+  dependencies:
+  - ggplot2
+  id: fig_1
+  parents: []
+  outputs:
+  - outputs/fig_1.png
+  engine: r
+- id: fig_1_format
+  type: format
+  label: Figure 1 format
+  parent: fig_1
+  format: format_fig_1
+repo: replicate-anything/rep-10.1177-00491241211036161
