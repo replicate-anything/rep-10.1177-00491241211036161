@@ -25,7 +25,6 @@ steps:
   - ggplot2
   id: fig_1
   parents: []
-  outputs:
   - outputs/fig_1.png
   engine: r
 - id: fig_1_format
