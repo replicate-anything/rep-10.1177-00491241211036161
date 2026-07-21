@@ -22,13 +22,11 @@ steps:
   dependencies:
   - ggplot2
   id: fig_1
-  parents: []
   outputs:
   - outputs/fig_1.png
   engine: r
 - id: fig_1_format
   type: format
-  label: Figure 1 format
   parent: fig_1
   format: format_fig_1
 repo: replicate-anything/rep-10.1177-00491241211036161
