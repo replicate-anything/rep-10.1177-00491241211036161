@@ -141,5 +141,3 @@ format_fig_1 <- function(object) {
     ggplot2::theme(legend.position = "none") +
     ggplot2::scale_color_grey(start = .6, end = 0)
 }
-
-make_fig_1() |> format_fig_1()
