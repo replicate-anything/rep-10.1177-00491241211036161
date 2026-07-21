@@ -19,12 +19,11 @@ steps:
   description: Bounds on probability of causation across rho and tau
   code: code/fig_1.R
   format: format_fig_1
-  outputs:
-    - outputs/fig_1.png
   dependencies:
   - ggplot2
   id: fig_1
   parents: []
+  outputs:
   - outputs/fig_1.png
   engine: r
 - id: fig_1_format
