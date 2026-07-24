@@ -6,7 +6,7 @@
   "replications": {
     "fig_1": {
       "status": "ok",
-      "artifact": "artifacts/fig_1.png",
+      "artifact": "outputs/fig_1.png",
       "format": "ggplot"
     }
   },
